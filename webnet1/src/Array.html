@@ -1,0 +1,23 @@
+<HTML>
+    <head>
+        <script>
+          function sum(a,b,functionName){
+            console.log("inside sum:");
+            c=a+b;
+            functionName();
+            return c;
+          }
+          function log(){
+            console.log("log to file");
+          }
+          function dblog(){
+            console.log("log to db");
+          }
+          
+        </script>
+    </head>
+    <body>
+        <input type="button" onClick="console.log(sum(23,34,log))" value="Click me file"/>
+        <input type="button" onClick="console.log(sum(12,35,dblog))" value="Click me db"/>
+    </body>
+</HTML>

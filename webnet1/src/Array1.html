@@ -1,0 +1,81 @@
+<HTML>
+    <head>
+        <h1>Araay and object function </h1>
+        <script>
+        
+            //{array within array function}
+         let d=[23,5,"hi","by",["sub",["i am preeti"],"jk"],34];
+          console.log(d[2]);
+          console.log(d[4][0]);
+          console.log(d[3]);
+          console.log(d[5]);
+          console.log(d[4][1]);
+          
+         // {object function}
+         let v=[2,3,53,23,"kirti","subject"];
+         for(i=0;i<v.length;i++);
+         console.log(i);
+
+         //{array object}
+          var y={name:"rahul",age:"34",hobbies:["dancing",["gardening"],"reading"],city:"nagpur",fsubject:"english",fteacher:"ashish",stream:"IT"};
+          console.log(y.name,y.age);
+          console.log(y.hobbies[1],y.city);
+          console.log(y.fsubject);
+          console.log(y.stream,y.fteacher);
+
+          //{string function}
+          let name="virat";
+          let lname="dange";
+          let hobbies="travelling,gardening,gaming";
+          let fno=7;
+          let age=45;
+          let no=7418529638;
+          let string="my age and name is"; 
+          let str="my no is";
+          console.log(string,age,str,name);
+          console.log("my no is:"+no);
+          console.log("my surname is:"+lname,"my favourite no is:"+fno);
+
+          //{num funct}
+          let s=43;
+          let t=32;
+          let p="453";
+          let u=809;
+          console.log("sum of s&t:",s+t);
+          console.log("sum of p&u:",p+u);
+
+          //{array within object }
+           let array=["raj",20,{"hobbies":["reading","singing"]},"thakre"];
+           console.log("name is:",array[0],array[3]);
+           console.log("hobbies is:",array[2]["hobbies"][0],array[2]["hobbies"][1]);
+           console.log(array[2]["hobbies"][1]);
+           console.log("surname is:",array[3]);
+
+           //{object within object}
+            let obj={"hobbies":{"hobby1":"cycling","hobby2":"camping"}};
+            console.log(obj["hobbies"]["hobby2"]);
+            console.log(obj["hobbies"]["hobby1"]);
+
+           //{map function}
+             let h=[10,20,9,45,35,575,78,54,23];
+             for(e=0;e<h.length;e++);{
+             console.log(h[e]);}
+
+             function CallT(value,index){
+             console.log("inside CallT")
+             console.log(value,index)
+             }
+             h.map(CallT);
+
+           
+        
+
+
+
+      
+        </script>
+   </head>
+         <body> 
+         </body>
+    
+</HTML>
