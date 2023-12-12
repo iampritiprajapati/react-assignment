@@ -19,6 +19,8 @@ import WeatherComponent from './WeatherComponent';
 import WeatherComponentStatic from './WeatherComponentStatic';
 import Weathercs from './Weathercs';
 import Log from './Log';
+import Object from './Object';
+import UserDetail from './UserDetail';
      function App() {
   return (
     <BrowserRouter>
@@ -39,7 +41,9 @@ import Log from './Log';
              <Route path="WeatherComponent" element={<WeatherComponent/>}/>
              <Route path="WeatherComponentStatic" element={<WeatherComponentStatic/>}/>
              <Route path="Weathercs" element={<Weathercs/>}/>
-             <Route path="Log" element={<Log age="22" name="Preeti"/>}/>
+             <Route path="Log" element={<Log age="22" name="sam" city="Delhi" state="MH" gender="male"/>}/>
+             <Route path="Object" element={<Object/>}/>
+             <Route path="UserDetail" element={<UserDetail/>}/>
              <Route path="*" element={<NotFound/>}>
              
           </Route>

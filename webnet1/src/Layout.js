@@ -21,6 +21,8 @@ return(
             <Link to="WeatherComponentStatic">WeatherComponentStatic</Link> <br/>
             <Link to="Weathercs">Weathercs</Link> <br/>
             <Link to="Log">Log</Link> <br/>
+            <Link to="Object">Object</Link><br/>
+            <Link to="UserDetail">UserDetail</Link> <br/>
             <a href="Layout">Layout</a> <br/>
             <a href="Home">Home</a> <br/>
             <a href="About">About</a> <br/>
@@ -39,6 +41,8 @@ return(
             <a href="WeatherComponentStatic">WeatherComponentStatic</a> <br/>
             <a href="Weathercs">Weathercs</a> <br/>
             <a href="Log">Log</a> <br/>
+            <a href="Object">Object</a><br/>
+            <a href="UserDetail">userDetail</a> <br/>
             <Outlet/>
             </div>  );
 }
