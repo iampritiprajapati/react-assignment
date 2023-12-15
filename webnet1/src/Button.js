@@ -1,3 +1,4 @@
+import * as React from 'react';
 import Comp1 from './Comp1';
 
  export default function Button(props){
@@ -14,7 +15,6 @@ import Comp1 from './Comp1';
   state={props.state}
   gender={props.gender}
    />
-  
     </>
     );
 }

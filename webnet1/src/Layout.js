@@ -23,6 +23,11 @@ return(
             <Link to="Log">Log</Link> <br/>
             <Link to="Object">Object</Link><br/>
             <Link to="UserDetail">UserDetail</Link> <br/>
+            <Link to="PropsDrill">PropsDrill</Link> <br/>
+            <Link to="Button1">Button1</Link> <br/>
+            <Link to="Compnent1">Compnent1</Link><br/>
+            <Link to="Component2">Component2</Link> <br/>
+            <Link t0="Context">Context</Link> <br/>
             <a href="Layout">Layout</a> <br/>
             <a href="Home">Home</a> <br/>
             <a href="About">About</a> <br/>
@@ -43,6 +48,11 @@ return(
             <a href="Log">Log</a> <br/>
             <a href="Object">Object</a><br/>
             <a href="UserDetail">userDetail</a> <br/>
+            <a href="PropsDrill">PropsDrill</a> <br/>
+            <a href="Button1">Button1</a> <br/>
+            <a href="Component1">Compnent1</a> <br/>
+            <a href="Component2">Component2</a> <br/>
+            <a href="context">Context</a> <br/> 
             <Outlet/>
             </div>  );
 }

@@ -14,7 +14,7 @@ function Log(props){
    city={props.city}
     state={props.state}
      gender={props.gender}/> <br/>
-     
+  
     </>
 }
 export default Log;
