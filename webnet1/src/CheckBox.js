@@ -2,7 +2,7 @@ import * as React from 'react';
 import Checkbox from '@mui/material/Checkbox';
 
 const label = { inputProps: { 'aria-label': 'Checkbox demo' } };
- function CheckBoxe() {
+ function CheckBox() {
   return (
     <div>
       <Checkbox {...label} defaultChecked />
@@ -12,4 +12,4 @@ const label = { inputProps: { 'aria-label': 'Checkbox demo' } };
     </div>
   );
 }
-export default CheckBoxe;
+export default CheckBox;

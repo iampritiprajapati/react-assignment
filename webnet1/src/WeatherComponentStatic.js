@@ -16,6 +16,7 @@ function WeatherComponent(){
     const[city,setCity]=React.useState();
     const[temp,setTemp]=React.useState();
     const[wind,setWind]=React.useState();
+    
     return <>
     <Box component="form"
     sx={{'&>:not(style)':{m:1,width:'25ch'},
@@ -33,7 +34,7 @@ function WeatherComponent(){
       cities.push({"city":city,"temp":temp,"wind":wind});
       setCities([...cities]);
 
-    }}>Add</Button>
+    }}>Add </Button>
            </Box>    
 
            <Grid container spacing={3}>
